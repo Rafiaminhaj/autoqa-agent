@@ -1,0 +1,17 @@
+meta {
+  name: Run Test Suite
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8000/run-tests
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "test_script": "tests/test_sample_login.py"
+  }
+}

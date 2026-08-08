@@ -1,0 +1,9 @@
+.env
+__pycache__/
+.pytest_cache/
+sandbox/raw_pytest_output.txt
+tests/local_page.html
+tests/local_assist_page.html
+.vscode/
+venv/
+.idea/

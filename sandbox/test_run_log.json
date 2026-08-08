@@ -1,0 +1,11 @@
+{
+  "status": "SUCCESS",
+  "message": "Verification PASS! Test suite successfully healed and verified.",
+  "diff": {
+    "file": "test_intuit_assist_mock.py",
+    "old_selector": "#submit-query",
+    "new_selector": "#ask-assist-btn-v2",
+    "explanation": "Confidence: HIGH | [Simulation Mode] Detected that '#submit-query' was renamed to '#ask-assist-btn-v2' in the Intuit Assist UI DOM."
+  },
+  "screenshot": "C:\\Users\\adiqu\\.gemini\\antigravity\\scratch\\autoqa-agent\\sandbox\\failure_snapshot.png"
+}
